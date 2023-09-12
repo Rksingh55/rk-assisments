@@ -1,0 +1,48 @@
+#sitemap{
+    padding: 30px 40px;
+
+    h1{
+        font-weight: 500;  
+    }
+
+    section{
+        margin-top: 30px;
+        
+        h3{
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        div{
+            p{
+                display: inline-flex;
+                gap: 9px;
+                &::after{
+                    content:"|";
+                    padding-right: 9px;
+                }
+
+                &:last-child::after{
+                    content: "";
+                }
+            }
+            
+        }
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    #sitemap{
+        padding: 20px 30px;
+    
+        h1{
+            font-weight: 500; 
+            border-bottom: 1px solid rgb(192, 182, 182); 
+            padding-bottom: 5px;
+        }
+    
+        section{
+            margin-top: 20px;  
+        }
+    }
+}

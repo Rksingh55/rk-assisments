@@ -1,0 +1,75 @@
+#video-upload-page{
+    padding: 30px 200px 30px 40px;
+
+    h2{
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+}
+
+.create-video-pg-btn-tool-tip{
+    padding: 4px 12px;
+    font-size: 1.1em;
+}
+
+
+#upload-video-modal-loader{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(3px);
+    color: white;
+    flex-direction: column;
+    
+    h2{
+        margin-top: 12px;
+    }
+
+    span{
+        margin-top: 40px;
+    }
+    div{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    #video-upload-page{
+        padding: 30px 10px 30px 10px;
+    
+        h2{
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+    }
+    
+    .create-video-pg-btn-tool-tip{
+        padding: 4px 4px;
+        font-size: 1em;
+    }
+     
+}

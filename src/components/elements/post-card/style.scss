@@ -1,0 +1,136 @@
+.forum-post-card{ 
+     border-bottom: 1px solid rgb(192, 185, 185);
+     padding-bottom: 10px;
+     cursor: pointer;
+
+    .forum-post-card-1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 6px;
+
+        div:first-child{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            img{
+                width: 30px;
+                height: 30px;
+                object-fit: cover;
+                border-radius: 100em;
+            }
+
+            h4{
+                color: rgb(92, 83, 83);
+                font-size: 1em;
+            }
+            
+            p{
+                font-size: 0.8em;
+            }
+        }
+        div:last-child{
+            h5{
+                border: 1px solid black;
+                padding: 4px 15px;
+                border-radius: 2em;
+            }
+
+        }
+    }
+
+    .forum-post-card-2{ 
+        zoom: 0.9;
+        padding: 20px 20px;
+        box-shadow: 0px 0px 6px rgb(129, 124, 124); 
+        margin-top: 16px;
+        border-radius: 0.6em;
+        background-color: rgba(245, 237, 237, 0.356);
+
+        h3{
+         margin-bottom: 4px;
+        }
+
+        div{
+            
+            img{
+                width: 100%!important;
+                object-fit: cover;
+                border-radius: 0.3em;
+                margin: 8px 0px 4px;
+            }
+        }
+    }
+
+    .forum-post-card-3{
+        margin: 17px 0px;
+
+        p{
+            display: inline-flex;
+            border:1px solid rgb(179, 169, 169);
+            padding: 2.5px 10px;
+            border-radius: 0.4em;
+            margin-right: 3px;
+            font-size: 0.9em;
+        }
+    }
+    
+    .forum-post-card-4{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        section:first-child{
+          display: flex;
+          align-items: center;
+          gap: 18px;
+
+          div{
+              display: flex;
+              align-items: center;
+              gap: 3px;
+
+              span{
+                  zoom: 1.3;
+              }
+              p{
+                  font-weight: 600;
+              }
+          }
+
+        }
+        section:last-child{
+            display: flex;
+            gap: 14px;
+            align-items: center;
+
+            span{
+                zoom: 1.5;
+            }
+
+            p{
+                font-weight: 600;
+                font-size: 1.1em;
+                color: red;
+            }
+        }
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .forum-post-card{  
+       .forum-post-card-1{ 
+   
+           div:first-child{ 
+               p{
+                   font-size: 0.65em;
+               }
+           } 
+       } 
+   }
+}

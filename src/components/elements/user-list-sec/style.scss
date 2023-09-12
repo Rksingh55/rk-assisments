@@ -1,0 +1,40 @@
+.forum-left-list_2{
+    margin-top: 23px;
+
+    h3{
+        font-weight: 400;
+        font-size: 1.1em;
+    }
+
+    section{
+        margin-top: 14px;
+        div{
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            overflow: hidden;
+            margin: 0px 6px 5px 0px;
+            transition: all 0.3s linear;
+            cursor: pointer;
+            position: relative;
+            border: 1px solid rgb(255, 255, 255);
+            .user-image:hover{  
+                border: 1px solid rgb(0, 0, 0);
+            }
+
+            .selected{
+                border: 1px solid rgb(255, 0, 0);
+            }
+
+            aside{
+                width: 10px;
+                height: 10px;
+                border-radius: 100em;
+                background-color: red;
+                position: absolute;
+                bottom: 8px;
+                right: 9px;
+            }
+        }
+    }
+}

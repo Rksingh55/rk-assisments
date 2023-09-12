@@ -1,0 +1,16 @@
+@import url("owl.carousel/dist/assets/owl.carousel.css"); 
+@import url("owl.carousel/dist/assets/owl.theme.default.css"); 
+
+.body-content{
+  padding: 0px 27px;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+  .body-content{
+    padding: 0px 7px;
+  }
+  
+}

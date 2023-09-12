@@ -1,0 +1,43 @@
+#faq-page{
+    margin: 40px 10px;
+
+    h1{
+        font-size: 2em;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    #faq-page-list-qna{
+        padding: 10px 20px;
+
+        .faq-page-list-question{
+            text-transform: uppercase;
+            color: rgb(104, 95, 95);
+            font-weight: 500;
+        }
+
+        .faq-page-list-answer{
+            text-transform: capitalize;
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+    #faq-page{
+        margin: 16px 6px;
+    
+        h1{
+            font-size: 1.6em;
+            margin-left: 9px;
+            margin-bottom: 13px;
+            font-weight: 500;
+        }
+    
+        #faq-page-list-qna{
+            padding: 10px 10px; 
+        }
+    }
+}

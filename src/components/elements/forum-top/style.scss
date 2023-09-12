@@ -1,0 +1,28 @@
+.forum-top-1{
+    border: 1px solid rgb(236, 229, 229);
+    border-radius: 0.3em;
+    padding: 10px 15px;
+    box-shadow: 0px 0px 5px rgb(206, 197, 197) inset;
+    cursor: pointer;
+    
+    div{
+        display: flex;
+        gap: 7px;
+        align-items: center;
+
+        span{
+            color: rgb(88, 82, 82);
+            
+        }
+        h3{
+            font-weight: 300;
+            text-transform: capitalize;
+        }
+    }
+    p{
+        font-weight: 700;
+        font-size: 1.1em;
+        margin-top: 4px;
+        color: rgb(151, 133, 133);
+    }
+}

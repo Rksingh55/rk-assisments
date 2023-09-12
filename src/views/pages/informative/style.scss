@@ -1,0 +1,38 @@
+.informative-pgs{
+    margin: 40px 80px 100px;
+
+    .title{
+        font-size: 2.4em;
+    }
+
+    .second-title{
+        margin: 3px 0px;
+        font-size: 2.1em;
+    }
+    .third-title{
+        font-size: 1.8em;
+        margin: 2px 0px;
+    }
+    .content{
+        margin: 5px 0px;
+        font-size: 1.2em;
+    }
+    .weight-500{
+        font-weight: 500;
+    }
+    .margin-top-40{
+        margin-top: 40px;
+    }
+    .margin-top-20{
+        margin-top: 20px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .informative-pgs{
+        margin: 20px 20px 100px;
+    }
+}

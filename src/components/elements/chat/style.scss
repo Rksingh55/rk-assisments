@@ -1,0 +1,85 @@
+#chat-compo{
+    position: fixed;
+    z-index: 101;
+    bottom: 30px;
+    right: 40px;
+    
+
+
+    aside{
+        background-color: #0C1B30;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border-radius: 100em;
+        box-shadow: 0px 0px 30px rgb(10, 10, 10); 
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.07);
+            background-color: #2b4e7e;
+        }
+        span{
+            zoom: 1.7;
+            animation: rotating-animation 0.4s ease;
+        }
+    }
+
+    div{
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        animation: entering-animation 0.4s ease;
+        
+        a{
+            background-color: #0C1B30;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            border-radius: 100em; 
+            box-shadow: 0px 0px 4px white;
+            transition: all 0.3s linear;
+            &:hover{
+                cursor: pointer;
+                transform: scale(1.07);
+                background-color: #2b4e7e;
+            }
+            span{
+                zoom: 1.4;
+                transform: translateY(2px);
+            }
+        }
+    }
+}
+
+@keyframes entering-animation {
+    0%{
+       transform: translateY(20px);
+       opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+ 
+
+
+
+
+@media only screen and (max-width: 900px) {
+    #chat-compo{
+        position: fixed;
+        z-index: 101;
+        bottom: 20px;
+        right: 20px;
+         
+    }
+}

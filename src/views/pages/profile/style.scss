@@ -1,0 +1,143 @@
+#user-profile{
+    position: relative; 
+     
+    overflow:hidden; 
+    padding: 35px;  
+}
+
+
+    
+.user-profile-left{  
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px; 
+    box-shadow: 0px 0px 10px rgb(187, 179, 179);
+    border-radius: 1em;
+    padding: 34px 14px 23px;
+    display: flex;
+    gap: 14px; 
+    flex-direction: column; 
+    align-items: center;
+
+
+    #user-profile-left-img{
+        position: relative;
+
+        img{
+            object-fit: cover; 
+            height: 200px;
+            width: 190px;
+            border-radius: 0.2em;
+        } 
+    }
+
+    #user-profile-left-details{
+        text-align: center;
+
+        h3{
+            font-weight: 300;
+            font-size: 2em;
+            text-transform: capitalize;
+        }
+
+        p{
+            margin-top: 20px;
+        }
+    }
+
+    #user-profile-numberss{
+        text-align: center;
+        margin-top: 23px;
+        p{
+            font-weight: 500;
+
+        }
+    }
+
+    #user-profile-left-socials{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        gap: 12px;
+        a{
+            zoom: 1.4;
+            cursor: pointer;
+        }
+
+        .faded{
+            opacity: 0.4;
+            cursor: default;
+        }
+    }
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    #user-profile{ 
+        padding: 15px 10px;  
+    }
+    
+    
+          
+    .user-profile-left{   
+        position: relative;   
+        padding: 18px 14px 18px;
+        flex-direction: row!important; 
+        justify-content: center;
+        gap: 10px;   
+
+        #user-profile-left-img{ 
+
+            img{ 
+                height: 180px;
+                width: 150px; 
+            } 
+        }
+
+        section{
+
+           
+    
+            #user-profile-left-details{ 
+    
+                h3{
+                    font-weight: 600;
+                    font-size: 1.3em; 
+                }
+    
+                p{
+                    margin-top: 13px;
+                }
+            }
+    
+            #user-profile-numberss{ 
+                margin-top: 13px;
+                p{
+                    font-weight: 600;
+                    font-size: 10px; 
+                }
+            }
+    
+            #user-profile-left-socials{ 
+                margin-top: 17px;
+                gap: 8px;
+                a{
+                    zoom: 1.2; 
+                } 
+            }
+        }
+      
+    }
+ 
+     
+}

@@ -1,0 +1,37 @@
+.sec-3-feature-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+
+    p{
+        font-weight: 400;
+        font-size: 1.5em;
+    }
+
+    aside{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .sec-3-feature-title{
+       padding: 0px 4px;
+    
+        p{ 
+            font-size: 1.2em;
+        }
+     
+    } 
+    
+}
